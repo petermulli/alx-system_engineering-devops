@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 -name '[0-9A-Za-z]*'-printf '%f,' -o -type d -printf '%f/,' echo
